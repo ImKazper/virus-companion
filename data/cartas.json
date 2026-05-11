@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cuarentena Estricta",
+    "descripcion": "Nadie puede jugar cartas de Contagio mientras esta carta esté activa.",
+    "tiempoSegundos": 60
+  },
+  {
+    "id": 2,
+    "titulo": "Mutación Rápida",
+    "descripcion": "Todos descartan una carta de su mano y roban una nueva.",
+    "tiempoSegundos": 30
+  },
+  {
+    "id": 3,
+    "titulo": "Aislamiento",
+    "descripcion": "El jugador en turno no puede usar comodines.",
+    "tiempoSegundos": 45
+  }
+]
