@@ -1,0 +1,10 @@
+[
+    {
+        "titulo": "Cuarentena Estricta",
+        "descripcion": "Nadie puede jugar cartas de Contagio mientras esta carta esté activa."
+    },
+    {
+        "titulo": "Mutación Rápida",
+        "descripcion": "Todos descartan una carta de su mano y roban una nueva."
+    }
+]
