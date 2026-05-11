@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Escasez de Suministros",
+        "descripcion": "Para inmunizar un órgano, ahora se necesitan colocar 3 medicinas sobre él, en lugar de las 2 habituales."
+    },
+    {
+        "titulo": "Pandemia Acelerada",
+        "descripcion": "El tamaño de la mano cambia. Al finalizar el turno, todos los jugadores roban cartas hasta tener 4 en su mano, en lugar de 3."
+    },
+    {
+        "titulo": "Clausura del Laboratorio",
+        "descripcion": "Se restringe la acción de descarte. Si en tu fase 1 decides descartar, solo puedes tirar una sola carta a la pila, en lugar de tantas como desees."
+    },
+    {
+        "titulo": "Mutación Agresiva",
+        "descripcion": "Los órganos que ya estén infectados por un virus no pueden ser elegidos para un Transplante."
+    },
+    {
+        "titulo": "Inmunosupresión (Defensas Bajas)",
+        "descripcion": "Queda totalmente prohibido Inmunizar órganos. Nadie puede colocar una segunda medicina sobre un órgano que ya está vacunado. Las medicinas solo sirven para curar un virus o vacunar (1 medicina máximo por órgano)."
+    }
+]

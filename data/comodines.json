@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Historial clinico",
+        "descripcion": "Recupera una carta de la pila de descarte."
+    },
+    {
+        "titulo": "Investigación avanzada",
+        "descripcion": "Robar 5 cartas del mazo. Descarta cartas hasta tener 3 en mano."
+    },
+    {
+        "titulo": "Pandemia Total",
+        "descripcion": "Descartan tu mano. Coloca los virus en organos activos validos. Roba 3 cartas. Cada jugador repite esta acción"
+    },
+    {
+        "titulo": "Enfermedad Crónica",
+        "descripcion": "Los jugadores con órganos infectados deben descartar una carta de su mano."
+    },
+    {
+        "titulo": "Coma inducido",
+        "descripcion": "Los jugadores no pueden jugar cartas de órganos hasta el comienzo de tu próximo turno."
+    },
+    {
+        "titulo": "Horas extras",
+        "descripcion": "Puedes jugar dos cartas este tu turno."
+    }
+]

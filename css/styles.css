@@ -21,7 +21,8 @@ body {
     font-size: 0.9rem;
 }
 
-select, input {
+select,
+input {
     background: #333;
     color: white;
     border: 1px solid #555;
@@ -41,7 +42,8 @@ select, input {
     color: #121212;
     width: 100%;
     max-width: 350px;
-    aspect-ratio: 2.5 / 3.5; /* Proporción estándar de carta */
+    aspect-ratio: 2.5 / 3.5;
+    /* Proporción estándar de carta */
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -49,7 +51,7 @@ select, input {
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .carta h2 {
@@ -89,4 +91,16 @@ button {
 
 button.oculto {
     display: none;
+}
+
+.oculto {
+    display: none !important;
+}
+
+#config-tiempo {
+    background: #333;
+    padding: 2px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
