@@ -42,7 +42,7 @@ function actualizarInterfaz() {
     const modo = selectorModo.value;
 
     // Mostrar u ocultar input de tiempo dinámico
-    if (modo === 'emergencia_dinamica') {
+    if (modo === 'emergencia_dinamica' || modo === 'comodin_frenetico') {
         configTiempo.classList.remove('oculto');
     } else {
         configTiempo.classList.add('oculto');
@@ -90,10 +90,8 @@ function ejecutarModo() {
     clearInterval(intervalo);
     btnAccion.innerText = "Siguiente carta / Reiniciar tiempo";
 
-    if (modo === 'comodin_frenetico') {
-        tiempoRestante = 60; // Fijo a 60s
-    } else if (modo === 'emergencia_dinamica') {
-        tiempoRestante = parseInt(tiempoInput.value) || 45; // Configurable
+    if (modo === 'comodin_frenetico' || modo === 'emergencia_dinamica') {
+        tiempoRestante = parseInt(tiempoInput.value) || 30; // El || 30 es un valor por defecto por si se borra el número
     }
 
     cronometroUI.innerText = tiempoRestante;
